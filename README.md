@@ -1,3 +1,3 @@
 # PA+
 
-asteriskblue.github.io/PAPlus/
+https://asteriskblue.github.io/PAPlus
