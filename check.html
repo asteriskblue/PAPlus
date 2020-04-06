@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PA+</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <h1>PA+</h1>
+        <hr>
+        <h2 class="accent">Check Prior Authorization</h2>
+        
+        <div class="container">
+            <label for="uname"><b>Procedure Code</b></label>
+            <input type="text" name="uname" required>
+            
+            <label for="psw"><b>Payer/Insurance</b></label>
+            <input type="password" name="psw" required>
+            
+            <label for="location" type="location"><b>Location</b></label>
+            
+            <input type="checkbox" id="inpatient" name="location">
+            <label for="inpatient">Inpatient</label><br>
+            <input type="checkbox" id="outpatient" name="location">
+            <label for="outpatient">Outpatient</label><br>
+            
+            <button>Search</button>
+        
+  </div>
+        
+    </body>
+</html>
